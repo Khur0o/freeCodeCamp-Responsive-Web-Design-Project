@@ -1,5 +1,12 @@
-# Free Code Camp
+# Free Code Camp Certification: Responsive Web Design
 
+The freeCodeCamp web design certification is a program that teaches you the fundamentals of web design, including HTML, CSS, and responsive design. The program also covers topics such as design principles, typography, and color theory. To earn the certification, you must complete a series of projects that demonstrate your understanding of these concepts. These projects include building responsive websites, creating visual designs, and debugging code.
+
+To get started on your owncertification, visti here: https://www.freecodecamp.org/
+
+[Picture]
+
+# Each project has a specific lesson designed to illustrate common practices in CSS & HTML.
 01 
 HTML tags give a webpage its structure. You can use HTML tags to add photos, buttons, and other elements to your webpage.
 In this course, you'll learn the most common HTML tags by building your own cat photo app.
@@ -16,8 +23,6 @@ In this course, you'll build a set of colored markers. You'll learn different wa
 You can use HTML forms to collect information from people who visit your webpage.
 In this course, you'll learn HTML forms by building a signup page. You'll learn how to control what types of data people can type into your form, and some new CSS tools for styling your
 page.
-
-(Certification Project)
 
 05
 Every HTML element is its own box – with its own spacing and a border. This is called the Box Model.
