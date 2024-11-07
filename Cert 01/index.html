@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Free CodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name<input id="name" type="text" placeholder="Enter your name" required/></label>
+        <label id="email-label" for="email">Email<input id="email" type="email"  placeholder="Enter your email" required/></label>
+        <label id="number-label" for="age">Age<input id="number" type="number" min="10" max="120"  placeholder="Enter your age"/></label>
+        <label for="role">Which option best describes your current role?
+          <select id="dropdown">
+            <option value="">select current role</option>
+            <option value="1">student</option>
+            <option value="2">full time job</option>
+            <option value="3">full time learner</option>
+            <option value="4">prefer not to say</option>
+            <option value="5">other</option>
+          </select>
+        </label>
+        <label>Gender</label>
+        <label for="gender"><input id="gender" type="radio" name="gender-type" class="inline" value="1" checked /> Male</label>
+        <label for="gender"><input id="gender" type="radio" name="gender-type" class="inline" value="2"/> Female</label>
+        <label>Hobby</label>
+        <label for="hobby">
+        <input class="inline" id="hobby" type="checkbox" required name="hobby" value="1"/> Writing</label>
+        <label for="hobby">
+        <input class="inline" id="hobby" type="checkbox" required name="hobby" value="2"/> Reading</label>
+        <label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+        <input id="submit" type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
