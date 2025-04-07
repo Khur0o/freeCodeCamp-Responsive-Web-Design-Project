@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+      <header>Technical Documentation Page</header>
+    <ul>
+        <li class="table-of-content">Table of Contents</li>
+        <ul>
+            <li class="sub-heading">Introduction</li>
+            <ul>
+                <li><a class="nav-link" href="#What_is_HTML">What is HTML</a></li>
+                <li><a class="nav-link" href="#HTML_Basics">HTML Basics</a></li>
+                <li><a class="nav-link" href="#Web_Design_Basics">Web Design Basics</a></li>
+            </ul>
+            <li class="sub-heading">HTML Basics</li>
+            <ul>
+                <li><a class="nav-link" href="#HTML_Paragraphs">HTML Paragraphs</a></li>
+                <li><a class="nav-link" href="#HTML_Headings">HTML Headings</a></li>
+            </ul>
+            <li class="sub-heading">HTML Inline</li>
+            <ul>
+                <li><a class="nav-link" href="#Block_and_Inline">Block and Inline</a></li>
+                <li><a class="nav-link" href="#HTML_Links">HTML Links</a></li>
+            </ul>
+        </ul>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="What_is_HTML">
+        <header>What is HTML</header>
+        <p>HTML (HyperText Markup Language) is used to structure and format the content of websites on the World Wide Web. Web Developers use it to create a skeleton of modern websites and web apps.</p>
+        <p>In simple words, HTML is the primary building block to create and structure website content.</p>
+        <header>HyperText</header>
+        <p>HyperText is a way of organizing text that allows the reader to easily navigate and access related information. It takes the reader to a different part of the same web page, or to a different web page altogether.</p>
+        <header>Markup Language</header>
+        <p>A markup language is a computer language that is used to add structure and formatting to a text document. Markup languages use a system of tags to define the structure and content of a document. These tags are interpreted by a program or application to display the document in a specific way.</p>
+        <hr/>
+        <header>Example of HTML</header>
+        <p>Let's see a simple example of HTML</p>
+        <code>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;HTML Sample&lt;/title&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;HTML Sample&lt;/h1&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;You'll learn about HTML.&lt;/p&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </code>        
+    </section>
+    <section class="main-section" id="HTML_Basics">
+        <header>HTML Basics</header>
+        <p>HTML (HyperText Markup Language) is a markup language used to structure and organize the content on a web page. It uses various tags to define the different elements on a page, such as headings, paragraphs, and links.</p>
+        <header>HTML Hierarchy</header>
+        <p>HTML elements are hierarchical, which means that they can be nested inside each other to create a tree-like structure of the content on the web page.</p>
+        <p>This hierarchical structure is called the DOM (Document Object Model), and it is used by the web browser to render the web page. For example,</p>
+        <code>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;HTML Sample&lt;/title&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;HTML Sample&lt;/h1&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;You'll learn about HTML.&lt;/p&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It contains a &lt;strong&gt;main heading &lt;/strong&gt; and<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;em&gt;paragraph &lt;/em&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </code> 
+        <p>In this example, the html element is the root element of the hierarchy and contains two child elements: head and body. The head element, in turn, contains a child element called the title, and the body element contains child elements: h1 and p.</p>
+    </section>
+    <section class="main-section" id="Web_Design_Basics">
+        <header>Web Design Basics</header>
+        <p>Web design refers to the process of creating and styling the appearance of a website. There are 3 fundamental technologies to build the modern website and web applications. They are:</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+        </ul>
+        <p>These technologies work together to provide the structure, style, and interactivity of a web page.</p>
+        <header>HTML</header>
+        <p>HTML (HyperText Markup Language) is a markup language used to structure and organize the content on a web page. It uses various tags to define the different elements on a page, such as headings, paragraphs, and links. Let's see an example:</p>
+        <code>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Page Title&lt;/title&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Heading&lt;/h1&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;paragraph&lt;/p&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </code>
+        <p>Here, we have an HTML document where:</p>
+        <ul>
+            <li><span>&lt;h1&gt;</span>&mdash; heading of the document</li>
+            <li><span>&lt;p&gt;</span>&mdash;paragraph of the document</li>
+        </ul>
+        <p>The heading and paragraph tag in the above code help create a webpage structure.</p>
+        <header>CSS</header>
+        <p>CSS (Cascading Style Sheets) is a stylesheet language. It is used to style HTML documents.</p>
+        <p>It specifies how the elements of HTML look including their layout, colors, and fonts. We use <span>&lt;style&gt;</span> tag to add CSS to HTML documents. Let's add some CSS to our previous HTML code.</p>
+        <code>
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;HTML Sample&lt;/title&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;style&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;h1 {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: blue;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;p {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: red;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/style&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;HTML Sample&lt;/h1&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;You'll learn about HTML.&lt;/p&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </code> 
+        <p>In the above code, we've applied CSS to <span>&lt;h1&gt;</span> and <span>&lt;p&gt;</span> tags to change their text color. Notice the code,</p>
+        <code>
+            h1 {<br>
+            &nbsp;color: blue;<br>
+            }<br>
+        </code>
+        <p>This CSS code turns the text color of every <span>&lt;h1&gt;</span> element into blue.</p>
+    </section>
+    <section class="main-section" id="HTML_Paragraphs">
+        <header>HTML Paragraphs</header>
+        <p>The HTML tag is used to create paragraphs. For example,</p>
+        <code>
+            &lt;p&gt;HTML paragraph&lt;/p&gt;
+        </code>
+        <p>As we can see, a paragraph starts with the <span>&lt;p&gt;</span> and ends with the <span>&lt;/p&gt;</span> tag.</p>
+    </section>
+    <section class="main-section" id="HTML_Headings">
+        <header>HTML Headings</header>
+        <p>The HTML heading tags (<span>&lt;h1&gt;</span> to <span>&lt;h6&gt;</span>) are used to add headings to a webpage. For example,</p>
+        <code>
+            &lt;h1&gt;This is heading 1.&lt;/h1&gt;<br>
+            &lt;h2&gt;This is heading 2.&lt;/h2&gt;<br>
+            &lt;h3&gt;This is heading 3.&lt;/h3&gt;<br>
+            &lt;h4&gt;This is heading 4.&lt;/h4&gt;<br>
+            &lt;h5&gt;This is heading 5.&lt;/h5&gt;<br>
+            &lt;h6&gt;This is heading 6.&lt;/h6&gt;<br>
+        </code>
+        <p>In the example, we have used tags h1 to h6 to create headings of varying sizes and importance.</p>
+        <p>The h1 tag denotes the most important heading on a webpage. Similarly, h6 denotes the least important heading.</p>
+        <p>The difference in sizes of heading tags comes from the browser's default styling. And, you can always change the styling of heading tags, including font size, using CSS.</p>
+    </section>
+    <section class="main-section" id="Block_and_Inline">
+            <header>Block and Inline</header>
+            <p>HTML elements can be broadly categorized into one of two categories:</p>
+            <ul>
+                <li>
+                    Inline Elements: &lt;span&gt;, &lt;a&gt;,
+                    &lt;strong&gt;, &lt;img&gt; etc.
+                </li>
+                <li>
+                    Block Elements: &lt;p&gt;, &lt;div&gt;, &lt;h1&gt;,
+                    &lt;figure&gt; etc.
+                </li>
+            </ul>
+            <header>HTML Inline Elements</header>
+            <p>Inline elements are displayed on the same line. They do not start on a new line and take up only as much width as their contents require. An example of an inline element is the &lt;span&gt; tag.</p>
+        </section>
+        <section class="main-section" id="HTML_Links">
+            <header>HTML Links</header>
+            <p>HTML links or hyperlinks connect one resource on the web to another. The resource may be an image, a web page, a program, a video clip, an audio clip, an element within a web page, etc, or anything that can be hosted on the internet.</p>
+            <p>We use the HTML &lt;a&gt; tag to create hyperlinks. The syntax for the &lt;a&gt; tag is</p>
+            <code>
+                &lt;a href="URL"&gt; Text  &lt;/a&gt;
+            </code>
+            <p>Here,</p>
+            <ul>
+                <li>URL - the destination of the link</li>
+                <li>Text - the part that will be visible as a link</li>
+            </ul>
+
+            <p>Clicking on the text will navigate you to the resource in the URL. For example,</p>
+            <a href="#What_is_HTML">What is HTML</a>
+        </section>
+  </main>
+
+</body>
+</html>
