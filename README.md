@@ -35,3 +35,19 @@ In this course, you'll use Flexbox to build a responsive photo gallery webpage.
 07
 Typography is the art of styling your text to be easily readable and suit its purpose.
 In this course, you'll use typography to build a nutrition label webpage. You'll learn how to style text, adjust line height, and position your text using CSS.
+
+08
+Accessibility is making your webpage easy for all people to use – even people with disabilities.
+In this course, you'll build a quiz webpage. You'll learn accessibility tools such as keyboard shortcuts, ARIA attributes, and design best practices.
+
+09
+You can use CSS pseudo selectors to change specific HTML elements.
+In this course, you'll build a balance sheet using pseudo selectors. You'll learn how to change the style of an element when you hover over it with your mouse, and trigger other events on your webpage.
+
+10
+Mastering CSS positioning is essential for creating visually appealing and responsive web layouts
+In this course, you will build a cat painting. You'll learn about how to work with absolute positioning, the z-index property, and the transform property.
+
+11
+Responsive Design tells your webpage how it should look on different-sized screens.
+In this course, you'll use CSS and responsive design to code a piano. You'll also learn more about media queries and pseudo selectors.
